@@ -1,7 +1,11 @@
+![screen](../master/art/preview_design.jpg)
+
 Project - "Simple Calculator"
 =========================
 
 Simple calculator app
+
+Design - https://dribbble.com/shots/13632144-Daily-UI-004-Calculator
 
 Pre-requisites
 --------------
@@ -22,18 +26,18 @@ If prompted for a gradle configuration accept the default settings.
 
 Alternatively use the "gradlew build" command to build the project directly.
 
-## Categories
+Categories
 -------
 - Android application
 
-## Languages
+Languages
 -------
 - Kotlin
 
-## Support
+Support
 -------
 Patches are encouraged, and may be submitted by forking this project and submitting a pull request through GitHub. 
 
-## License
+License
 -------
 See LICENSE
