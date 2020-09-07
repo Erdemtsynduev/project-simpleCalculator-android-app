@@ -15,12 +15,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="2.1"
-        android:fontFamily="sans-serif-light"
         android:gravity="end|bottom"
         android:maxLines="1"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:textSize="20sp"
+        android:textColor="@color/colorTextButtonGray"
         app:layout_constraintBottom_toTopOf="@+id/result"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,13 +31,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="2.0"
-        android:fontFamily="sans-serif-light"
         android:gravity="center_vertical|end"
         android:maxLines="1"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:text="0"
-        android:textSize="40sp"
+        android:textColor="@color/colorTextButton"
+        android:textSize="60sp"
         app:layout_constraintBottom_toTopOf="@+id/button_plus_minus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
@@ -60,8 +60,9 @@
             android:clickable="true"
             android:focusable="true"
             android:text="C"
-            android:textColor="#1B1A1F"
-            android:textSize="24sp" />
+            android:textColor="@color/colorTextButton"
+            android:textSize="24sp"
+            tools:ignore="NestedWeights" />
 
         <soup.neumorphism.NeumorphButton
             android:id="@+id/button_plus_minus"
@@ -72,7 +73,7 @@
             android:clickable="true"
             android:focusable="true"
             android:text="+-"
-            android:textColor="#1B1A1F"
+            android:textColor="@color/colorTextButton"
             android:textSize="24sp" />
 
         <soup.neumorphism.NeumorphButton
@@ -84,7 +85,7 @@
             android:clickable="true"
             android:focusable="true"
             android:text="%"
-            android:textColor="#1B1A1F"
+            android:textColor="@color/colorTextButton"
             android:textSize="24sp" />
 
         <soup.neumorphism.NeumorphButton
@@ -96,7 +97,7 @@
             android:clickable="true"
             android:focusable="true"
             android:text="/"
-            android:textColor="#1B1A1F"
+            android:textColor="@color/colorTextButtonYellow"
             android:textSize="24sp" />
     </LinearLayout>
 
@@ -115,7 +116,7 @@
             android:clickable="true"
             android:focusable="true"
             android:text="7"
-            android:textColor="#1B1A1F"
+            android:textColor="@color/colorTextButton"
             android:textSize="24sp"
             tools:ignore="NestedWeights" />
 
@@ -128,7 +129,7 @@
             android:clickable="true"
             android:focusable="true"
             android:text="8"
-            android:textColor="#1B1A1F"
+            android:textColor="@color/colorTextButton"
             android:textSize="24sp" />
 
         <soup.neumorphism.NeumorphButton
@@ -140,7 +141,7 @@
             android:clickable="true"
             android:focusable="true"
             android:text="9"
-            android:textColor="#1B1A1F"
+            android:textColor="@color/colorTextButton"
             android:textSize="24sp" />
 
         <soup.neumorphism.NeumorphButton
@@ -152,7 +153,7 @@
             android:clickable="true"
             android:focusable="true"
             android:text="X"
-            android:textColor="#1B1A1F"
+            android:textColor="@color/colorTextButtonYellow"
             android:textSize="24sp" />
     </LinearLayout>
 
@@ -171,7 +172,7 @@
             android:clickable="true"
             android:focusable="true"
             android:text="4"
-            android:textColor="#1B1A1F"
+            android:textColor="@color/colorTextButton"
             android:textSize="24sp"
             tools:ignore="NestedWeights" />
 
@@ -184,7 +185,7 @@
             android:clickable="true"
             android:focusable="true"
             android:text="5"
-            android:textColor="#1B1A1F"
+            android:textColor="@color/colorTextButton"
             android:textSize="24sp" />
 
         <soup.neumorphism.NeumorphButton
@@ -196,7 +197,7 @@
             android:clickable="true"
             android:focusable="true"
             android:text="6"
-            android:textColor="#1B1A1F"
+            android:textColor="@color/colorTextButton"
             android:textSize="24sp" />
 
         <soup.neumorphism.NeumorphButton
@@ -208,7 +209,7 @@
             android:clickable="true"
             android:focusable="true"
             android:text="-"
-            android:textColor="#1B1A1F"
+            android:textColor="@color/colorTextButtonYellow"
             android:textSize="24sp" />
     </LinearLayout>
 
@@ -227,7 +228,7 @@
             android:clickable="true"
             android:focusable="true"
             android:text="1"
-            android:textColor="#1B1A1F"
+            android:textColor="@color/colorTextButton"
             android:textSize="24sp"
             tools:ignore="NestedWeights" />
 
@@ -240,7 +241,7 @@
             android:clickable="true"
             android:focusable="true"
             android:text="2"
-            android:textColor="#1B1A1F"
+            android:textColor="@color/colorTextButton"
             android:textSize="24sp" />
 
         <soup.neumorphism.NeumorphButton
@@ -252,7 +253,7 @@
             android:clickable="true"
             android:focusable="true"
             android:text="3"
-            android:textColor="#1B1A1F"
+            android:textColor="@color/colorTextButton"
             android:textSize="24sp" />
 
         <soup.neumorphism.NeumorphButton
@@ -264,7 +265,7 @@
             android:clickable="true"
             android:focusable="true"
             android:text="+"
-            android:textColor="#1B1A1F"
+            android:textColor="@color/colorTextButtonYellow"
             android:textSize="24sp" />
 
     </LinearLayout>
@@ -275,7 +276,6 @@
         android:layout_weight="2"
         android:orientation="horizontal">
 
-
         <soup.neumorphism.NeumorphButton
             android:id="@+id/button_zero"
             style="@style/Widget.Neumorph.Button"
@@ -285,7 +285,7 @@
             android:clickable="true"
             android:focusable="true"
             android:text="0"
-            android:textColor="#1B1A1F"
+            android:textColor="@color/colorTextButton"
             android:textSize="24sp"
             tools:ignore="NestedWeights" />
 
@@ -304,7 +304,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:text=","
-                android:textColor="#1B1A1F"
+                android:textColor="@color/colorTextButton"
                 android:textSize="24sp" />
 
             <soup.neumorphism.NeumorphButton
@@ -316,7 +316,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:text="="
-                android:textColor="#1B1A1F"
+                android:textColor="@color/colorTextButtonYellow"
                 android:textSize="24sp" />
         </LinearLayout>
     </LinearLayout>
