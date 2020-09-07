@@ -1,3 +1,8 @@
+def versionMajor = 1  // production major
+def versionMinor = 0  // production minor
+def versionPatch = 0 // bugfix release
+def versionBuild = 0  // alpha / beta / release candidate
+
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
@@ -10,9 +15,8 @@ android {
         applicationId "com.erdemtsynduev.simplecalculator"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
-
+        versionCode versionMajor * 1000 + versionMinor * 100 + versionPatch * 10 + versionBuild
+        versionName "${versionMajor}.${versionMinor}.${versionPatch}"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
