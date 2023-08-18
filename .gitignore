@@ -4,7 +4,7 @@
 /.idea
 .DS_Store
 /build
-/app/release/app-release.aab
 /captures
 .externalNativeBuild
 .cxx
+local.properties
