@@ -9,7 +9,7 @@ Design - https://dribbble.com/shots/13632144-Daily-UI-004-Calculator
 
 Pre-requisites
 --------------
-Android SDK 29
+Android SDK 34
 
 Getting Started
 ---------------
