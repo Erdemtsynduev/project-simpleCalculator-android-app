@@ -48,3 +48,23 @@ Single-module Android app (`:app`) using Jetpack Compose with Material3.
 ## Design Reference
 
 UI design: https://dribbble.com/shots/13632144-Daily-UI-004-Calculator
+
+## AI Coding Agent
+
+This repository uses the **GitHub Copilot Coding Agent** — an autonomous AI software-engineering agent built into GitHub Copilot.
+
+**What it is:**
+- An AI agent powered by a large language model that can read, write, and reason about code across the entire repository.
+- Operates inside a secure, sandboxed environment with a fresh clone of the repository for every task.
+- Produces changes as pull requests that can be reviewed, modified, and merged by human maintainers.
+
+**What it can do:**
+- Understand issues and implement the required code changes end-to-end.
+- Explore the codebase, run builds, tests, and linters to validate changes.
+- Commit and push changes to a dedicated branch via the `report_progress` tool.
+- Perform security scans (CodeQL) and automated code reviews before finalizing work.
+
+**What it cannot do:**
+- Directly push to protected branches or bypass pull-request review requirements.
+- Access secrets, credentials, or private data outside the repository scope.
+- Modify files in the `.github/agents` directory.
